@@ -15,15 +15,15 @@ const Hero = () => {
         <Image
           src="/logo-lg.png"
           alt="Oscar the Octopus"
-          width={300}
-          height={300}
+          width={750}
+          height={750}
           priority
         />
         <div className="mt-8 flex space-x-4">
-          <a href="https://twitter.com/oscartheoctopus" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+          <a href="https://twitter.com/OscarOnSui" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
             <FaTwitter className="text-3xl" />
           </a>
-          <a href="https://t.me/oscartheoctopus" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+          <a href="https://t.me/OscarTheOcto" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
             <FaTelegram className="text-3xl" />
           </a>
         </div>

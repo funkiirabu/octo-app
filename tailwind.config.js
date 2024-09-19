@@ -6,7 +6,14 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'oscar-purple': '#402E7A',
+        'oscar-light-purple': '#4C3BCF',
+        'oscar-blue': '#4B70F5',
+        'oscar-light-blue': '#3DC2EC',
+      },
+    },
   },
   plugins: [],
 };
