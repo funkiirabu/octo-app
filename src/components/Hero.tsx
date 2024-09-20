@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="relative h-screen">
       <Image
         src="/bg.jpg"
-        alt="Hero background"
+        alt="Oscar Hero"
         fill
         style={{ objectFit: 'cover' }}
         quality={100}
@@ -15,13 +15,13 @@ const Hero = () => {
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <Image
           src="/logo-lg.png"
-          alt="Oscar the Octopus"
+          alt="Oscar Logo"
           width={750}
           height={750}
           priority
         />
         <div className="mt-8 flex space-x-6">
-          <a href="https://twitter.com/OscarOnSui" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+          <a href="https://x.com/OscarOnSui" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
             <FaXTwitter className="text-5xl" />
           </a>
           <a href="https://t.me/OscarTheOcto" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
