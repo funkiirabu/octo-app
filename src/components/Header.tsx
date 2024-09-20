@@ -16,9 +16,9 @@ const Header = () => {
   return (
     <header className="absolute top-0 left-0 right-0 z-10 bg-transparent">
       <div className="container mx-auto px-2 sm:px-4">
-        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between py-4 sm:py-6">
+        <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between py-4 sm:py-6">
           <Link href="/" className="flex-shrink-0 mb-4 sm:mb-0">
-            <Image src="/logo-sm.png" alt="Oscar the Octopus" width={250} height={100} className="w-48 sm:w-64 h-auto" />
+            <Image src="/logo.png" alt="Oscar the Octopus" width={60} height={60} className="sm:w-20 sm:h-20" />
           </Link>
           <nav className="w-full sm:w-auto">
             <ul className="flex flex-wrap justify-center sm:justify-end items-center gap-2 sm:gap-3">
