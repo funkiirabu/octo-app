@@ -21,7 +21,7 @@ const Hero = () => {
           priority
         />
         <div className="mt-8 flex space-x-6">
-          <a href="https://twitter.com/OscarOnSui" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+          <a href="https://x.com/OscarOnSui" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
             <FaXTwitter className="text-5xl" />
           </a>
           <a href="https://t.me/OscarTheOcto" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">

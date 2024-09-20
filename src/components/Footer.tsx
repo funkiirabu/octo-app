@@ -12,7 +12,7 @@ const Footer = () => {
             <Image src="/logo.png" alt="Oscar the Octopus" width={60} height={60} />
           </Link>
           <div className="mb-4 flex space-x-6">
-            <a href="https://twitter.com/OscarOnSui" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-300 transition duration-300">
+            <a href="https://x.com/OscarOnSui" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-300 transition duration-300">
               <FaXTwitter className="text-4xl" />
             </a>
             <a href="https://t.me/OscarTheOcto" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-300 transition duration-300">
