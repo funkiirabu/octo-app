@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="relative h-screen">
       <Image
         src="/bg.jpg"
-        alt="Hero background"
+        alt="Oscar Hero"
         fill
         style={{ objectFit: 'cover' }}
         quality={100}
@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="absolute inset-0 flex flex-col items-center justify-center">
         <Image
           src="/logo-lg.png"
-          alt="Oscar the Octopus"
+          alt="Oscar Logo"
           width={750}
           height={750}
           priority
